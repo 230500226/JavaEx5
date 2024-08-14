@@ -11,6 +11,8 @@ package com.mycompany.javaex5;
 public class JavaEx5 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Fibonacci fibonacci = new Fibonacci();
+        fibonacci.start();
     }
 }
